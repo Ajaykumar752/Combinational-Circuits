@@ -1,0 +1,18 @@
+module mux2_1_gatetb;
+reg a,b,s;
+wire y;
+wire w1,w2,w3;
+mux2_1_gate uut(.s(s), .a(a), .b(b), .y(y));
+initial begin
+$monitor("s=%b,a=%b, b=%b, y=%b",s,a,b,y);
+    s=0; a=0; b=0; #10;
+    s=0; a=0; b=1; #10;
+    s=0; a=1; b=0; #10;
+    s=0; a=1; b=1; #10;
+    s=1; a=0; b=0; #10;
+    s=1; a=0; b=1; #10;
+    s=1; a=1; b=0; #10;
+    s=1; a=1; b=1; #10;
+   $finish;
+   end
+endmodule
