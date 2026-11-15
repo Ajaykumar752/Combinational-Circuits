@@ -44,9 +44,21 @@ Combinational-Circuits/
 │       ├── full_subtractor_schematic.png
 │       └── full_subtractor_waveform.png
 │
+├── MUX/
+│   ├── MUX-2x1/
+│   │   ├── mux_2_1.v
+│   │   ├── mux_2_1_tb.v
+│   │   ├── mux_2_1_schematic.png
+│   │   └── mux_2_1_waveform.png
+│   │
+│   └── MUX-4x1/
+│       ├── mux_4_1.v
+│       ├── mux_4_1_tb.v
+│       ├── mux_4_1_schematic.png
+│       └── mux_4_1_waveform.png
+│
 └── README.md
 ```
-
 ## ✅ Circuits Implemented
 
 ### 1. Adders
@@ -57,9 +69,12 @@ Combinational-Circuits/
 - Half Subtractor
 - Full Subtractor
 
+### 3. Multiplexer
+- Mux_2_1
+- Mux_4_1
+
 ## 🚀 Future Improvements
 
 - Encoder and Decoder
-- Multiplexer and Demultiplexer
 - Other combinational circuits
 
