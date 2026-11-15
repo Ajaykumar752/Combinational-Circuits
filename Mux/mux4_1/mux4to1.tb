@@ -1,0 +1,25 @@
+module mux4to1tb;
+reg i0,i1,i2,i3,s1,s0;
+wire y;
+integer k,errors;
+reg[3:0] d;
+reg[1:0] s;
+mux4to1 uut(.i0(i0), .i1(i1), .i2(i2), .i3(i3), .s1(s1), .s0(s0), .y(y));
+initial begin
+errors =0;
+for (k=0;k<64;k=k+1)begin
+{s1,s0,i3,i2,i1,i0}=k[5:0];
+d={i3,i2,i1,i0};
+s={s1,s0};
+#10;
+
+if(y!==d[s])begin
+$display("FAIL:s=%b d=%b y=%b",s,d,y);
+errors=errors+1;
+end
+end
+if(errors==0)$display("ALL TESTS PASSED");
+else $display("%0d TESTS FAILED",errors);
+$finish;
+end 
+endmodule
