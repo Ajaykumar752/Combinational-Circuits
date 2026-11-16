@@ -57,6 +57,19 @@ Combinational-Circuits/
 │       ├── mux_4_1_schematic.png
 │       └── mux_4_1_waveform.png
 │
+├── Decoder/
+│   ├── Decoder-2x4/
+│   │   ├── decoder_2_4.v
+│   │   ├── decoder_2_4_tb.v
+│   │   ├── decoder_2_4_schematic.png
+│   │   └── decoder_2_4_waveform.png
+│   │
+│   └── Decoder-3x8/
+│       ├── decoder_3_8.v
+│       ├── decoder_3_8_tb.v
+│       ├── decoder_3_8_schematic.png
+│       └── decoder_3_8_waveform.png
+│
 └── README.md
 ```
 ## ✅ Circuits Implemented
@@ -73,8 +86,13 @@ Combinational-Circuits/
 - Mux_2_1
 - Mux_4_1
 
+### 3. Decoder
+- Decoder2_4
+- Decoder3_8
+
+
 ## 🚀 Future Improvements
 
-- Encoder and Decoder
+- Encoder 
 - Other combinational circuits
 
