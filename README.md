@@ -70,6 +70,13 @@ Combinational-Circuits/
 │       ├── decoder_3_8_schematic.png
 │       └── decoder_3_8_waveform.png
 │
+├── Encoder/
+│   └── Encoder-4x2/
+│       ├── encoder_4_2.v
+│       ├── encoder_4_2_tb.v
+│       ├── encoder_4_2_schematic.png
+│       └── encoder_4_2_waveform.png
+│
 └── README.md
 ```
 ## ✅ Circuits Implemented
@@ -90,9 +97,11 @@ Combinational-Circuits/
 - Decoder2_4
 - Decoder3_8
 
+### 4. Encoder
+-Encoder4_2
+
 
 ## 🚀 Future Improvements
 
-- Encoder 
 - Other combinational circuits
 
