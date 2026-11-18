@@ -1,0 +1,24 @@
+`timescale 1ns / 1ps
+module priority_encoder_4to2_tb;
+reg [3:0]d;
+wire [1:0]y;
+wire v;
+
+priority_encoder_4to2 uut(.d(d),
+ .v(v),
+ .y(y));
+ 
+ initial begin
+    $monitor("Time=%0t d=%b y=%b v=%b", $time, d,y,v);
+    d=4'b0000; #10;
+    d=4'b0001; #10;
+    d=4'b0010; #10;
+    d=4'b0011; #10;
+    d=4'b0100; #10;
+    d=4'b1000; #10;
+    d=4'b1010; #10;
+    d=4'b1100; #10;
+
+    $finish;
+    end
+endmodule
