@@ -70,12 +70,18 @@ Combinational-Circuits/
 │       ├── decoder_3_8_schematic.png
 │       └── decoder_3_8_waveform.png
 │
-├── Encoder/
-│   └── Encoder-4x2/
-│       ├── encoder_4_2.v
-│       ├── encoder_4_2_tb.v
-│       ├── encoder_4_2_schematic.png
-│       └── encoder_4_2_waveform.png
+├─── Encoder/
+│   ├── Encoder-4x2/
+│   │   ├── encoder_4_2.v
+│   │   ├── encoder_4_2_tb.v
+│   │   ├── encoder_4_2_schematic.png
+│   │   └── encoder_4_2_waveform.png
+│   │
+│   └── Priority-Encoder-4x2/
+│       ├── priority_encoder_4_2.v
+│       ├── priority_encoder_4_2_tb.v
+│       ├── priority_encoder_4_2_schematic.png
+│       └── priority_encoder_4_2_waveform.png
 │
 └── README.md
 ```
@@ -99,7 +105,7 @@ Combinational-Circuits/
 
 ### 4. Encoder
 -Encoder4_2
-
+-Priority-Encoder-4x2
 
 ## 🚀 Future Improvements
 
