@@ -82,6 +82,11 @@ Combinational-Circuits/
 │       ├── priority_encoder_4_2_tb.v
 │       ├── priority_encoder_4_2_schematic.png
 │       └── priority_encoder_4_2_waveform.png
+├─── Ripple-Carry-Adder/
+│       ├── ripple_carry_adder.v
+│       ├── ripple_carry_adder_tb.v
+│       ├── ripple_carry_adder_schematic.png
+│       └── ripple_carry_adder_waveform.png
 │
 └── README.md
 ```
@@ -106,6 +111,8 @@ Combinational-Circuits/
 ### 4. Encoder
 -Encoder4_2
 -Priority-Encoder-4x2
+
+### 5. Ripple Carry Fulladder
 
 ## 🚀 Future Improvements
 
