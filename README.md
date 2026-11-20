@@ -120,7 +120,7 @@ Combinational-Circuits/
 
 ### 5. Ripple Carry Fulladder
 
-### 6.Carry Looh Ahead Adder
+### 6.Carry Look Ahead Adder
 
 
 ## 🚀 Future Improvements
