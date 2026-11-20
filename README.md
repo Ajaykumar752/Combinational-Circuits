@@ -88,6 +88,12 @@ Combinational-Circuits/
 │       ├── ripple_carry_adder_schematic.png
 │       └── ripple_carry_adder_waveform.png
 │
+├─── Carry-Look-Ahead-Adder/
+│       ├── carry_lool_ahead_adder.v
+│       ├── carry_lool_ahead_adder.tb
+│       ├── carry_lool_ahead_adder.waveform.png
+│       └── carry_lool_ahead_adder.schematic.png
+│
 └── README.md
 ```
 ## ✅ Circuits Implemented
@@ -113,6 +119,9 @@ Combinational-Circuits/
 -Priority-Encoder-4x2
 
 ### 5. Ripple Carry Fulladder
+
+### 6.Carry Looh Ahead Adder
+
 
 ## 🚀 Future Improvements
 
